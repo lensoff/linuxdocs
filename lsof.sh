@@ -22,3 +22,10 @@ kill -9 'lsof -t -u tecmint'
 lsof /var/log/syslog
 #List opened files under a directory
 lsof +D /var/log/
+#Which files does process X have open?
+lsof -p PID
+lsof -p `pgrep glances`
+#Where is the * for this process?
+lsof -p PID | grep bin
+lsof -p PID | grep log
+lsof -p PID | grep .so
