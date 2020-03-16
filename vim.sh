@@ -97,7 +97,8 @@ echo 'color desert' >> /etc/vimrc
 echo 'set nocp' >> /etc/vimrc
 echo 'set wildmenu' >> /etc/vimrc
 echo 'set pastetoggle=<F2>' >> /etc/vimrc
+echo 'set mouse-=a' >> /etc/vim/vimrc
 
 #:syntax on
 #:colorscheme desert
-
+#:set mouse-=a
