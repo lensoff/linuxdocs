@@ -16,4 +16,16 @@ tmax list-sessions (or ls)
 tmax attach -t <session name>
 
 
+#tmux alternative - screen
 
+# Starting Linux Screen
+screen
+# Starting Named Session
+screen -S session_name
+# Detach from Linux Screen Session
+Ctrl-a + Ctrl-d
+# Reattach to a Linux Screen
+screen -r
+# Several sessions
+screen -ls
+screen -r <session-id>
